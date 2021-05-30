@@ -369,23 +369,24 @@ bye
 
 # Conclusion
 
-Angr can be quite useful in certain cases as shown above. It's a niche tool, but I think it's really cool. 
-
-You can use it as a standalone tool, or with open-source plugins for IDA Pro, Ghidra, Binary Ninja & more.
+Angr can be quite useful in certain cases as shown above. It's a niche tool, but I think it's really cool. You can use it as a standalone tool, or with open-source plugins for IDA Pro, Ghidra, Binary Ninja & more.
 
 I hope you've enjoyed reading through this blog post. If you want to leave any feedback, you can find my email in the [about](about) page.
 
 # References
 
-https://docs.angr.io/ - All Angr things
-
-"Code obfuscation against symbolic execution attacks" - conference paper by Sebastian Banescu. Used part of the definition of "symbolic execution" from this paper. 
+[https://docs.angr.io/](https://docs.angr.io/) - All Angr things
 
 * [AngryIDA - IDA Pro plugin](https://github.com/Brandon-Everhart/AngryIDA)
 * [AngryGhidra - Ghidra plugin](https://github.com/Nalen98/AngryGhidra)
 * [SENinja - Binary Ninja plugin (similar, Angr inspired)](https://github.com/borzacchiello/seninja)
 
+"Code obfuscation against symbolic execution attacks" - conference paper by Sebastian Banescu. Used part of the definition of "symbolic execution" from this paper. 
 
-<br></br>
 
-N.Z
+
+<br>
+
+<br>
+
+
