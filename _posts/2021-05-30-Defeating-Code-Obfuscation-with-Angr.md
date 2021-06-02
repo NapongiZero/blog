@@ -135,7 +135,7 @@ Now that we got the basics down, let's move over to the main event.
 The obfuscated binary that I originally had to work on cannot be disclosed at this time.
 Therefore, I'll be showcasing a **very similar** use case. Do not be discouraged though, as the fundamentals are exactly the same.
 
-The binary that we'll be reversing is "[Jack](jack)" from [DarkCTF2020](https://ctftime.org/event/1118).
+The binary that we'll be reversing is "[Jack](assets/Defeating-Code-Obfuscation-with-Angr/jack)" from [DarkCTF2020](https://ctftime.org/event/1118).
 
 <br>
 
