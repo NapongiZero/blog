@@ -70,7 +70,7 @@ Consider the following code snippet:
 void main(int argc, char *argv[]){
     int a=atoi(argv[1]);
     int b=atoi(argv[2]);
-    if (10 > a > 5 && 10 > b > 1 && 2*b - a == 10)
+    if (10 > a && a > 5 && 10 > b && b > 1 && 2*b - a == 10)
     {
         printf("[+] Math is hard... but not 4 u! \n");
     }
