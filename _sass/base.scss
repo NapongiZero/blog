@@ -11,14 +11,19 @@ $header: $conifer !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
 
+@font-face {
+  font-family: "LibreBaskerville-Regular";
+  src: url("../assets/LibreBaskerville-Regular.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../assets/bkg.png") 0 0;
+  background: $body-background url("../assets/bkg_light.png") 0 0;
   color: $body-foreground;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
-  font-family: "Bitstream Vera Sans Mono"; 
+  font-family: 'Open Sans', sans-serif;
   //font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
@@ -81,7 +86,7 @@ header h1 {
 }
 
 header h2 {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 300;
   color: #666;
 }
@@ -108,15 +113,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content h1 {
-  font-size: 30px;
+  font-size: 33px;
 }
 
 #main_content h2 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 #main_content h3 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #main_content h4 {
