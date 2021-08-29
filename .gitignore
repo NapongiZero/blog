@@ -1,3 +1,4 @@
 _site
 .sass-cache
 .jekyll-cache/
+assets/HTB_CTF_2021/svchost.exe_extracted/
