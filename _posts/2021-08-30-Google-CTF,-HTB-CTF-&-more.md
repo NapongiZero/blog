@@ -125,7 +125,7 @@ In order to fix the first byte of the faulty files I used [Okteta](https://apps.
 ![](assets/HTB_CTF_2021/okteta.png)
 
 After saving the change, uncompyle6 successfully decompiled the files.
-Taking a closer look at [logger.py](../assets/HTB_CTF_2021/logger.py) reveals that it's probably a keylogger, since it listens to keystrokes. They are then written to a file in APPDATA. Before writing to the file, the logged keystrokes are encrypted by using AES with hard-coded Key & IV.
+Taking a closer look at [logger.py](https://github.com/NapongiZero/blog/blob/master/assets/HTB_CTF_2021/logger.py) reveals that it's probably a keylogger, since it listens to keystrokes. They are then written to a file in APPDATA. Before writing to the file, the logged keystrokes are encrypted by using AES with hard-coded Key & IV.
 
 ![](assets/HTB_CTF_2021/encrypted_file.png)
 
@@ -134,12 +134,12 @@ The encrypted content:
 
 Since the key & IV are supplied, we can write a script that decrypts the encrypted text:
 
-![](/assets/HTB_CTF_2021/decrypt_script.png)
+![](assets/HTB_CTF_2021/decrypt_script.png)
 
 After decrypting the file, I got rid of most of the excess text such as "Key.space" & "Key.enter" as they clutter the file.
 While cleaning up the file, I noticed a message from someone who used the computer before:
 
-![](/assets/HTB_CTF_2021/usr_pin.png)
+![](assets/HTB_CTF_2021/usr_pin.png)
 
 The PIN completes our flag and successfully finishes the challenge.
 
